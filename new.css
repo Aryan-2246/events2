@@ -1,4 +1,8 @@
-html, body {
+html {
+  font-size: 16px; /* Base font size */
+}
+
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -8,21 +12,21 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  padding-left: 10rem;
-  padding-top: 8rem;
+  padding-left: 10em; /* 160px converted to em */
+  padding-top: 8em; /* 128px converted to em */
 }
 
 .title span {
   display: block;
   color: azure;
   font-family: 'Roboto', sans-serif;
-  font-size: 75px;
+  font-size: 4.6875em; /* 75px converted to em */
   text-align: start;
-  text-shadow: 0 0 20px green;
+  text-shadow: 0 0 1.25em green; /* 20px converted to em */
 }
 
 .event-container {
-  padding-top: 20px;
+  padding-top: 1.25em; /* 20px converted to em */
   text-align: center;
 }
 
@@ -39,9 +43,9 @@ nav {
   display: flex;
   position: relative;
   justify-content: space-evenly;
-  padding-top: 1.2rem;
-  padding-bottom: 0.2rem;
-  padding-left: 3.5rem;
+  padding-top: 1.2em; /* 19.2px converted to em */
+  padding-bottom: 0.2em; /* 3.2px converted to em */
+  padding-left: 3.5em; /* 56px converted to em */
 }
 
 nav ul {
@@ -53,27 +57,27 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 10px;
+  margin: 0.625em; /* 10px converted to em */
   text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: larger;
+  font-size: 1.125em; /* larger */
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
-  margin-left: 20px;
+  margin-left: 1.25em; /* 20px converted to em */
 }
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 0.625em 1.25em; /* 10px 20px converted to em */
+  font-size: 1em; /* 16px converted to em */
   font-weight: bold;
   color: #fff;
   background-color: green;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125em; /* 5px converted to em */
   text-align: center;
 }
 
@@ -81,65 +85,63 @@ nav ul li a {
   color: white;
   text-align: center;
   font-family: roboto;
-  font-size: 50px;
-  
- 
+  font-size: 3.125em; /* 50px converted to em */
 }
 
 .event-cont {
   background-color: #0f2139;
-  padding-bottom: 50px;
+  padding-bottom: 3.125em; /* 50px converted to em */
 }
 
 .text {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6.25em; /* 100px converted to em */
+  margin-right: 6.25em; /* 100px converted to em */
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   text-align: left;
-  padding-left: 10px;
-  padding-right: 100px;
-  padding-top: 55px;
+  padding-left: 0.625em; /* 10px converted to em */
+  padding-right: 6.25em; /* 100px converted to em */
+  padding-top: 3.4375em; /* 55px converted to em */
 }
 
 .text7 {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6.25em; /* 100px converted to em */
+  margin-right: 6.25em; /* 100px converted to em */
   color: white;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 100px;
+  padding-left: 6.25em; /* 100px converted to em */
+  padding-right: 6.25em; /* 100px converted to em */
+  padding-top: 6.25em; /* 100px converted to em */
 }
 
 .text2 {
-  height: 300px;
-  width: 500px;
+  height: 18.75em; /* 300px converted to em */
+  width: 31.25em; /* 500px converted to em */
 }
 
 .img {
-  margin-top: 30px;
-  margin-left: 200px;
+  margin-top: 1.875em; /* 30px converted to em */
+  margin-left: 12.5em; /* 200px converted to em */
 }
 
 .heading1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #A2FF86;
-  font-size: larger;
+  font-size: 1.125em; /* larger */
 }
 
 .img2 {
-  margin-top: 30px;
-  margin-right: 200px;
+  margin-top: 1.875em; /* 30px converted to em */
+  margin-right: 12.5em; /* 200px converted to em */
 }
 
 .content-txt {
-  font-size: 20px;
+  font-size: 1.25em; /* 20px converted to em */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -154,13 +156,13 @@ footer ul li {
   list-style: none;
   display: inline-block;
   justify-content: space-between;
-  margin-right: 50px;
+  margin-right: 3.125em; /* 50px converted to em */
 }
 
 .footer-title {
-  font-size: 20px;
-  margin-top: 35px;
-  margin-left: 85px;
+  font-size: 1.25em; /* 20px converted to em */
+  margin-top: 2.1875em; /* 35px converted to em */
+  margin-left: 5.3125em; /* 85px converted to em */
   font-family: 'Roboto', sans-serif;
   text-align: start;
   text-decoration: none;
@@ -177,11 +179,11 @@ footer ul li {
 @keyframes appearleft {
   from {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-6.25em); /* 100px converted to em */
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
@@ -194,11 +196,11 @@ footer ul li {
 @keyframes appearright {
   from {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(6.25em); /* 100px converted to em */
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
@@ -211,12 +213,11 @@ footer ul li {
 @keyframes title {
   from {
     opacity: 0;
-    transform: translateY(20px);
-    
+    transform: translateY(1.25em); /* 20px converted to em */
   }
   to {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
@@ -224,47 +225,47 @@ footer ul li {
   animation: title 1s linear;
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 92em) { /* 1480px converted to em */
   /* Styles for tablets */
   .events {
-    padding-left: 5rem;
-    padding-top: 3rem;
+    padding-left: 5em; /* 80px converted to em */
+    padding-top: 3em; /* 48px converted to em */
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
   .title span {
-    font-size: 50px;
+    font-size: 3.125em; /* 50px converted to em */
   }
 
   .text {
     flex-direction: column-reverse;
     align-items: center;
-    padding: 10px;
+    padding: 0.625em; /* 10px converted to em */
   }
 
   .text7 {
     flex-direction: column-reverse;
     align-items: center;
-    padding: 0px;
+    padding: 0;
   }
 
   .text2 {
     width: 100%;
     text-align: center;
-    height: fit-content;
+    height: auto;
   }
 
   .img, .img2 {
-    margin: 15px 0;
-    width: 400px;
+    margin: 0.9375em 0; /* 15px converted to em */
+    width: 25em; /* 400px converted to em */
   }
 
   nav {
     flex-direction: column;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1em 0; /* 16px converted to em */
   }
 
   nav ul {
@@ -286,67 +287,67 @@ footer ul li {
   }
 
   footer ul li {
-    margin: 1px 0;
+    margin: 0.0625em 0; /* 1px converted to em */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48em) { /* 768px converted to em */
   /* Styles for mobile phones */
   .main-container {
-    height:auto;
+    height: 40em; /* 640px converted to em */
   }
 
   .events {
-    padding-left: 0px;
-    padding-top: 2px;
+    padding-left: 0;
+    padding-top: 0.0625em; /* 1px converted to em */
   }
 
   .title span {
-    display: flex;
-    align-items: center;
-    font-size: 50px;
-    text-align: center;
+    font-size: 2.25em; /* 20px converted to em */
   }
 
   .text, .text7 {
-    margin: 10px;
+    margin: 0.625em; /* 10px converted to em */
     flex-direction: column-reverse;
-    text-align: center;
   }
 
   .text2 {
     width: 100%;
-    text-align: center;
+    text-align: start;
     height: auto;
+  }
+
+  .events-title span{
+    font-size: 2em;
   }
 
   .heading1 {
     text-align: center;
-    font-size: medium;
+    font-size: 1.125em; 
   }
 
   .content-txt {
-    font-size: 20px;
+    font-size: 1.25em; /* 20px converted to em */
   }
 
   .img, .img2 {
-    width: fit-content;
+    width: auto;
     justify-content: center;
-    margin-top: 2px;
+    margin-top: 0.125em; /* 2px converted to em */
   }
 
   nav ul {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 4.375em; /* 70px converted to em */
   }
 
   nav ul li {
-    margin: 10px 10px;
+    margin: 0.625em 0; /* 10px converted to em */
   }
 
   footer {
-    padding: 1rem 0;
+    padding: 1em 0; /* 16px converted to em */
   }
 
   footer ul {
@@ -355,7 +356,6 @@ footer ul li {
   }
 
   footer ul li {
-    margin: 5px 0;
+    margin: 0.3125em 0; /* 5px converted to em */
   }
 }
-
